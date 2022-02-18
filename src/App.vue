@@ -1,18 +1,19 @@
+<!--
+ * @Description: 
+ * @Author: shangxin
+ * @Date: 2022-02-18 16:15:50
+ * @LastEditTime: 2022-02-18 16:48:13
+ * @LastEditors: shangxin
+ * @Usage: 
+-->
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+  <div class="container">
+    <Literacy />
+  </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
-
-export default defineComponent({
-  name: "App",
-  components: {
-    HelloWorld,
-  },
-});
+<script lang="ts" setup>
+import Literacy from "@/output/Literracy4";
 </script>
 
 <style lang="less">
@@ -21,7 +22,8 @@ export default defineComponent({
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+.container {
+  border: 5px solid yellowgreen;
 }
 </style>
