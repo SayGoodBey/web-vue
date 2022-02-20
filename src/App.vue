@@ -9,11 +9,13 @@
 <template>
   <div class="container">
     <Literacy />
+    <AntdVue />
   </div>
 </template>
 
 <script lang="ts" setup>
 import Literacy from "@/output/Literracy4";
+import AntdVue from "@/output/AntdVue";
 </script>
 
 <style lang="less">
